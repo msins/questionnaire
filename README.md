@@ -1,9 +1,9 @@
 ## Questionnaire
 
 - Web app used for managing game surveys. Can be controlled through the dashboard or the REST API.
-- Made with Spring Boot, Vaadin, Hibernate and uses MVP for user interface.
-- This was my part of a 2019 student group project. Other parts of the project were Unity VR library, which renders
-  these surveys in-game, and a simple game(Whack-a-mole) to test it on.
+- Made with Spring Boot, Vaadin, Hibernate and uses MVP for the user interface.
+- This was my part of a 2019 student group project. Other parts of the project were a Unity VR library, which renders
+  these surveys in-game, and a simple game (Whack-a-mole) to test it on.
 
 ### Testing
 
