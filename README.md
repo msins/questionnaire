@@ -49,10 +49,9 @@ $ docker-compose up -d
 
 #### Answer
 
-- Optional queries ex. `?offset=10&limit=10&sort=time,desc`
+- Optional queries: `?offset=10&limit=10&sort=time,desc`
 
 `[GET] /api/v1/answer` - get all answers\
-`[GET] /api/v1/csv/answer` - get all answers in csv format\
 `[GET] /api/v1/answer/{gameId}` - get answers for game with an id equal to `gameId`\
 `[GET] /api/v1/answer/{scenarioId}` - get answers for scenario with an id equal to `scenarioId`\
 `[GET] /api/v1/answer/{questionId}` - get answers for question with an id equal to `questionId`\
