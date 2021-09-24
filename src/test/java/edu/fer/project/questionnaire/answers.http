@@ -1,0 +1,423 @@
+POST localhost:8080/api/v1/game/Factorio
+Content-Type: application/json
+
+###
+POST localhost:8080/api/v1/scenario/1/New%20player
+Content-Type: application/json
+
+###
+POST localhost:8080/api/v1/question/2
+Content-Type: application/json
+
+{
+  "text": "How hard was the tutorial?",
+  "type": "SCALING",
+  "choices": [
+    {
+      "text": "Very easy",
+      "ordering": 1
+    },
+    {
+      "text": "Easy",
+      "ordering": 2
+    },
+    {
+      "text": "Normal",
+      "ordering": 3
+    },
+    {
+      "text": "Hard",
+      "ordering": 4
+    },
+    {
+      "text": "Very hard",
+      "ordering": 5
+    }
+  ]
+}
+
+###
+POST localhost:8080/api/v1/answer
+Content-Type: application/json
+
+{
+  "time": "2020-01-12T16:48:05.591+08:00",
+  "user": {
+    "name": "test-user1",
+    "email": "user1@gmail.com",
+    "gender": "Male",
+    "age": 21,
+    "ip": "188.252.197.44"
+  },
+  "gameId": 1,
+  "scenarioId": 2,
+  "questionId": 3,
+  "choiceId": 6
+}
+###
+POST localhost:8080/api/v1/answer
+Content-Type: application/json
+
+{
+  "time": "2020-01-12T16:48:05.591+08:00",
+  "user": {
+    "name": "test-user1",
+    "email": "user1@gmail.com",
+    "gender": "Male",
+    "age": 21,
+    "ip": "188.252.197.44"
+  },
+  "gameId": 1,
+  "scenarioId": 2,
+  "questionId": 3,
+  "choiceId": 6
+}
+###
+POST localhost:8080/api/v1/answer
+Content-Type: application/json
+
+{
+  "time": "2020-01-12T16:48:05.591+08:00",
+  "user": {
+    "name": "test-user1",
+    "email": "user1@gmail.com",
+    "gender": "Male",
+    "age": 21,
+    "ip": "188.252.197.44"
+  },
+  "gameId": 1,
+  "scenarioId": 2,
+  "questionId": 3,
+  "choiceId": 7
+}
+###
+POST localhost:8080/api/v1/answer
+Content-Type: application/json
+
+{
+  "time": "2020-01-12T16:48:05.591+08:00",
+  "user": {
+    "name": "test-user1",
+    "email": "user1@gmail.com",
+    "gender": "Male",
+    "age": 21,
+    "ip": "188.252.197.44"
+  },
+  "gameId": 1,
+  "scenarioId": 2,
+  "questionId": 3,
+  "choiceId": 5
+}
+###
+POST localhost:8080/api/v1/answer
+Content-Type: application/json
+
+{
+  "time": "2020-01-12T16:48:05.591+08:00",
+  "user": {
+    "name": "test-user1",
+    "email": "user1@gmail.com",
+    "gender": "Male",
+    "age": 21,
+    "ip": "188.252.197.44"
+  },
+  "gameId": 1,
+  "scenarioId": 2,
+  "questionId": 3,
+  "choiceId": 4
+}
+###
+POST localhost:8080/api/v1/answer
+Content-Type: application/json
+
+{
+  "time": "2020-01-12T16:48:05.591+08:00",
+  "user": {
+    "name": "test-user2",
+    "email": "user2@gmail.com",
+    "gender": "Male",
+    "age": 21,
+    "ip": "188.252.197.44"
+  },
+  "gameId": 1,
+  "scenarioId": 2,
+  "questionId": 3,
+  "choiceId": 5
+}
+###
+###
+POST localhost:8080/api/v1/answer
+Content-Type: application/json
+
+{
+  "time": "2020-01-12T16:48:05.591+08:00",
+  "user": {
+    "name": "test-user2",
+    "email": "user2@gmail.com",
+    "gender": "Male",
+    "age": 21,
+    "ip": "188.252.197.44"
+  },
+  "gameId": 1,
+  "scenarioId": 2,
+  "questionId": 3,
+  "choiceId": 5
+}
+###
+###
+POST localhost:8080/api/v1/answer
+Content-Type: application/json
+
+{
+  "time": "2020-01-12T16:48:05.591+08:00",
+  "user": {
+    "name": "test-user2",
+    "email": "user2@gmail.com",
+    "gender": "Male",
+    "age": 21,
+    "ip": "188.252.197.44"
+  },
+  "gameId": 1,
+  "scenarioId": 2,
+  "questionId": 3,
+  "choiceId": 5
+}
+###
+###
+POST localhost:8080/api/v1/answer
+Content-Type: application/json
+
+{
+  "time": "2020-01-12T16:48:05.591+08:00",
+  "user": {
+    "name": "test-user2",
+    "email": "user2@gmail.com",
+    "gender": "Male",
+    "age": 21,
+    "ip": "188.252.197.44"
+  },
+  "gameId": 1,
+  "scenarioId": 2,
+  "questionId": 3,
+  "choiceId": 5
+}
+###
+###
+POST localhost:8080/api/v1/answer
+Content-Type: application/json
+
+{
+  "time": "2020-01-12T16:48:05.591+08:00",
+  "user": {
+    "name": "test-user2",
+    "email": "user2@gmail.com",
+    "gender": "Male",
+    "age": 21,
+    "ip": "188.252.197.44"
+  },
+  "gameId": 1,
+  "scenarioId": 2,
+  "questionId": 3,
+  "choiceId": 5
+}
+###
+###
+POST localhost:8080/api/v1/answer
+Content-Type: application/json
+
+{
+  "time": "2020-01-12T16:48:05.591+08:00",
+  "user": {
+    "name": "test-user2",
+    "email": "user2@gmail.com",
+    "gender": "Male",
+    "age": 21,
+    "ip": "188.252.197.44"
+  },
+  "gameId": 1,
+  "scenarioId": 2,
+  "questionId": 3,
+  "choiceId": 5
+}
+###
+###
+POST localhost:8080/api/v1/answer
+Content-Type: application/json
+
+{
+  "time": "2020-01-12T16:48:05.591+08:00",
+  "user": {
+    "name": "test-user2",
+    "email": "user2@gmail.com",
+    "gender": "Male",
+    "age": 21,
+    "ip": "188.252.197.44"
+  },
+  "gameId": 1,
+  "scenarioId": 2,
+  "questionId": 3,
+  "choiceId": 5
+}
+###
+###
+POST localhost:8080/api/v1/answer
+Content-Type: application/json
+
+{
+  "time": "2020-01-12T16:48:05.591+08:00",
+  "user": {
+    "name": "test-user2",
+    "email": "user2@gmail.com",
+    "gender": "Male",
+    "age": 21,
+    "ip": "188.252.197.44"
+  },
+  "gameId": 1,
+  "scenarioId": 2,
+  "questionId": 3,
+  "choiceId": 5
+}
+###
+POST localhost:8080/api/v1/answer
+Content-Type: application/json
+
+{
+  "time": "2020-01-12T16:48:05.591+08:00",
+  "user": {
+    "name": "test-user4",
+    "email": "user4@gmail.com",
+    "gender": "Male",
+    "age": 21,
+    "ip": "188.252.197.44"
+  },
+  "gameId": 1,
+  "scenarioId": 2,
+  "questionId": 3,
+  "choiceId": 6
+}
+###
+POST localhost:8080/api/v1/answer
+Content-Type: application/json
+
+{
+  "time": "2020-01-12T16:48:05.591+08:00",
+  "user": {
+    "name": "test-user4",
+    "email": "user4@gmail.com",
+    "gender": "Male",
+    "age": 21,
+    "ip": "188.252.197.44"
+  },
+  "gameId": 1,
+  "scenarioId": 2,
+  "questionId": 3,
+  "choiceId": 7
+}
+###
+POST localhost:8080/api/v1/answer
+Content-Type: application/json
+
+{
+  "time": "2020-01-12T16:48:05.591+08:00",
+  "user": {
+    "name": "test-user4",
+    "email": "user4@gmail.com",
+    "gender": "Male",
+    "age": 21,
+    "ip": "188.252.197.44"
+  },
+  "gameId": 1,
+  "scenarioId": 2,
+  "questionId": 3,
+  "choiceId": 7
+}
+###
+POST localhost:8080/api/v1/answer
+Content-Type: application/json
+
+{
+  "time": "2020-01-12T16:48:05.591+08:00",
+  "user": {
+    "name": "test-user4",
+    "email": "user4@gmail.com",
+    "gender": "Male",
+    "age": 21,
+    "ip": "188.252.197.44"
+  },
+  "gameId": 1,
+  "scenarioId": 2,
+  "questionId": 3,
+  "choiceId": 7
+}
+###
+POST localhost:8080/api/v1/answer
+Content-Type: application/json
+
+{
+  "time": "2020-01-12T16:48:05.591+08:00",
+  "user": {
+    "name": "test-user4",
+    "email": "user4@gmail.com",
+    "gender": "Male",
+    "age": 21,
+    "ip": "188.252.197.44"
+  },
+  "gameId": 1,
+  "scenarioId": 2,
+  "questionId": 3,
+  "choiceId": 7
+}
+###
+POST localhost:8080/api/v1/answer/
+Content-Type: application/json
+
+{
+  "time": "2020-01-12T16:48:05.591+08:00",
+  "user": {
+    "name": "test-user3",
+    "email": "user3@gmail.com",
+    "gender": "Male",
+    "age": 21,
+    "ip": "188.252.197.44"
+  },
+  "gameId": 1,
+  "scenarioId": 2,
+  "questionId": 3,
+  "choiceId": 8
+}
+###
+POST localhost:8080/api/v1/answer/
+Content-Type: application/json
+
+{
+  "time": "2020-01-12T16:48:05.591+08:00",
+  "user": {
+    "name": "test-user3",
+    "email": "user3@gmail.com",
+    "gender": "Male",
+    "age": 21,
+    "ip": "188.252.197.44"
+  },
+  "gameId": 1,
+  "scenarioId": 2,
+  "questionId": 3,
+  "choiceId": 8
+}
+###
+POST localhost:8080/api/v1/answer/
+Content-Type: application/json
+
+{
+  "time": "2020-01-12T16:48:05.591+08:00",
+  "user": {
+    "name": "test-user3",
+    "email": "user3@gmail.com",
+    "gender": "Male",
+    "age": 21,
+    "ip": "188.252.197.44"
+  },
+  "gameId": 1,
+  "scenarioId": 2,
+  "questionId": 3,
+  "choiceId": 8
+}

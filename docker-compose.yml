@@ -1,0 +1,35 @@
+version: "3"
+services:
+  db:
+    container_name: database
+    image: postgres:13.3-alpine
+    restart: always
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    expose:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=questionnaire
+
+  web-app:
+    container_name: web-app
+    image: questionnaire
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      args:
+        - JDBC_URL=jdbc:postgresql://db:5432/questionnaire
+    volumes:
+      - web-app:/var/xd
+    restart: "no"
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+
+
+volumes:
+  db_data: { }
+  web-app: { }
